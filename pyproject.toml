@@ -1,0 +1,20 @@
+[project]
+name = "aerosubsa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jose Emmanuel Chavez Zepeda", email = "chavez.emmanuel020310@gemail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=3.19.2",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+aerosubsa = "aerosubsa:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
